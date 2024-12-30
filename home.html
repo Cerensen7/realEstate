@@ -1,555 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LUXURY ESTATES</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Unna:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <body>
-    <header class="header">
-      <!-- Main Navigation -->
-      <nav class="nav">
-        <div class="nav__container">
-          <a href="/" class="nav__logo">LUXURY ESTATES</a>
 
-          <!-- Desktop Menu -->
-          <ul class="nav__menu desktop-menu">
-            <li class="nav__item">
-              <a href="/buy" class="nav__link">Buy</a>
-            </li>
-            <li class="nav__item">
-              <a href="/rent" class="nav__link">Rent</a>
-            </li>
-            <li class="nav__item">
-              <a href="/sell" class="nav__link">Sell</a>
-            </li>
-            <li class="nav__item">
-              <a href="/developments" class="nav__link">New Developments</a>
-            </li>
-            <li class="nav__item">
-              <a href="/about" class="nav__link">About</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXURY ESTATES</title>
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Unna:wght@400;700&display=swap"
+    
+ href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
-          <!-- Hamburger Icon -->
-          <div class="nav__hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </nav>
+  
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 
-      <!-- Hero Section -->
-      <div class="hero">
-        <div class="hero__overlay"></div>
-        <div class="hero__content">
-          <h1 class="hero__title">Discover Your Dream Home</h1>
-          <p class="hero__subtitle">
-            Experience luxury living with our curated collection of exclusive
-            properties in prime locations
-          </p>
-          <button class="hero__cta">View Properties</button>
-        </div>
-      </div>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <link rel="stylesheet" href="home.css" />
+</head>
 
-      <!-- Secondary Navigation -->
-      <nav class="secondary-nav">
-        <div class="secondary-nav__container">
-          <a href="#featured" class="secondary-nav__link"
-            >Featured Properties</a
-          >
-          <a href="#luxury" class="secondary-nav__link">Luxury Collection</a>
-          <a href="#locations" class="secondary-nav__link">Locations</a>
-          <a href="#contact" class="secondary-nav__link">Contact</a>
-        </div>
-      </nav>
-    </header>
+<body>
+  <header class="header">
+    
+    <nav class="nav">
+      <div class="nav__container">
+        <a href="home.html" class="nav__logo">Luxury Estate</a>
+        
 
-   <!-- Featured Properties Section -->
-<section class="featured">
-  <div class="featured__container">
-    <h2 class="featured__title">Featured Properties</h2>
-    <p class="featured__subtitle">
-      Discover our handpicked selection of prestigious properties
-    </p>
-
-    <!-- Swiper -->
-    <div class="swiper featured-swiper">
-      <div class="swiper-wrapper">
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-1.jpg" alt="Modern Villa" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Modern Villa with Ocean View</h3>
-              <p class="property-card__location">Beverly Hills, CA</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 5 Beds</span>
-                <span><i class="fas fa-bath"></i> 6 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 6,200 sq ft</span>
-              </div>
-              <div class="property-card__price">$8,500,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-2.jpg" alt="Luxury Penthouse" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Luxury Penthouse Suite</h3>
-              <p class="property-card__location">Manhattan, NY</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 3 Beds</span>
-                <span><i class="fas fa-bath"></i> 3.5 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 4,100 sq ft</span>
-              </div>
-              <div class="property-card__price">$12,900,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-3.jpg" alt="Modern Apartment" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Modern Downtown Apartment</h3>
-              <p class="property-card__location">Los Angeles, CA</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 2 Beds</span>
-                <span><i class="fas fa-bath"></i> 2 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 2,100 sq ft</span>
-              </div>
-              <div class="property-card__price">$3,200,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 4 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-4.jpg" alt="Waterfront Estate" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Waterfront Mediterranean Estate</h3>
-              <p class="property-card__location">Miami Beach, FL</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 7 Beds</span>
-                <span><i class="fas fa-bath"></i> 8.5 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 9,800 sq ft</span>
-              </div>
-              <div class="property-card__price">$15,750,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 5 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-5.jpg" alt="Modern Glass House" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Modern Glass House</h3>
-              <p class="property-card__location">Hollywood Hills, CA</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 4 Beds</span>
-                <span><i class="fas fa-bath"></i> 4.5 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 5,300 sq ft</span>
-              </div>
-              <div class="property-card__price">$7,800,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 6 -->
-        <div class="swiper-slide">
-          <div class="property-card">
-            <div class="property-card__image">
-              <img src="luxury-home-6.jpg" alt="Beachfront Villa" />
-              <span class="property-card__tag">For Sale</span>
-            </div>
-            <div class="property-card__content">
-              <h3 class="property-card__title">Beachfront Villa</h3>
-              <p class="property-card__location">Malibu, CA</p>
-              <div class="property-card__details">
-                <span><i class="fas fa-bed"></i> 6 Beds</span>
-                <span><i class="fas fa-bath"></i> 7 Baths</span>
-                <span><i class="fas fa-ruler-combined"></i> 7,500 sq ft</span>
-              </div>
-              <div class="property-card__price">$18,900,000</div>
-              <button class="property-card__btn">View Details</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Navigation and Pagination Container -->
-      <div class="swiper-nav-pagination">
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </div>
-  </div>
-</section>
-          <!-- Navigation Buttons -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-
-          <!-- Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <section class="luxury-collection">
-      <div class="luxury-collection__container">
-          <h2 class="luxury-collection__title">Luxury Collection</h2>
-          <p class="luxury-collection__subtitle">Discover our exclusive portfolio of magnificent properties designed for sophisticated living</p>
+       
+        <ul class="nav__menu desktop-menu">
+          <li class="nav__item">
+            <button id="buyBtn" class="nav__link popup-trigger">Buy</button>
+          </li>
+          <li class="nav__item">
+            <button id="rentBtn" class="nav__link popup-trigger">Rent</button>
+          </li>
+          <li class="nav__item">
+            <button id="sellBtn" class="nav__link popup-trigger">Sell</button>
+          </li>
+          <li class="nav__item">
+            <button id="helpBtn" class="nav__link popup-trigger">Help Menu</button>
+          </li>
+           
           
-          <div class="swiper luxury-collection-swiper">
-            <div class="swiper-wrapper">
-              <!-- Premium Villa Card -->
-              <div class="swiper-slide">
-                <div class="property-card">
-                    <div class="property-card__image">
-                        <img src="/api/placeholder/600/400" alt="Premium Villa">
-                        <span class="property-card__tag">Premium</span>
-                    </div>
-                    <div class="property-card__content">
-                        <h3 class="property-card__title">Waterfront Villa</h3>
-                        <p class="property-card__location">Beverly Hills, CA</p>
-                        <div class="property-card__details">
-                            <span><i class="fas fa-bed"></i> 6 Beds</span>
-                            <span><i class="fas fa-bath"></i> 8 Baths</span>
-                            <span><i class="fas fa-ruler-combined"></i> 12,500 sq ft</span>
-                        </div>
-                        <div class="property-card__price">$12,500,000</div>
-                        <button class="property-card__btn">View Details</button>
-                    </div>
-                </div>
-              </div>
-    
-              <!-- Penthouse Card -->
-              <div class="swiper-slide">
-                <div class="property-card">
-                    <div class="property-card__image">
-                        <img src="/api/placeholder/600/400" alt="Luxury Penthouse">
-                        <span class="property-card__tag">Featured</span>
-                    </div>
-                    <div class="property-card__content">
-                        <h3 class="property-card__title">Sky Penthouse</h3>
-                        <p class="property-card__location">Manhattan, NY</p>
-                        <div class="property-card__details">
-                            <span><i class="fas fa-bed"></i> 4 Beds</span>
-                            <span><i class="fas fa-bath"></i> 5 Baths</span>
-                            <span><i class="fas fa-ruler-combined"></i> 7,200 sq ft</span>
-                        </div>
-                        <div class="property-card__price">$8,900,000</div>
-                        <button class="property-card__btn">View Details</button>
-                    </div>
-                </div>
-              </div>
-    
-              <!-- Estate Card -->
-              <div class="swiper-slide">
-                <div class="property-card">
-                    <div class="property-card__image">
-                        <img src="/api/placeholder/600/400" alt="Private Estate">
-                        <span class="property-card__tag">Exclusive</span>
-                    </div>
-                    <div class="property-card__content">
-                        <h3 class="property-card__title">Private Estate</h3>
-                        <p class="property-card__location">Hamptons, NY</p>
-                        <div class="property-card__details">
-                            <span><i class="fas fa-bed"></i> 8 Beds</span>
-                            <span><i class="fas fa-bath"></i> 10 Baths</span>
-                            <span><i class="fas fa-ruler-combined"></i> 15,800 sq ft</span>
-                        </div>
-                        <div class="property-card__price">$18,500,000</div>
-                        <button class="property-card__btn">View Details</button>
-                    </div>
-                </div>
-              </div>
-            </div>
-    
-            <!-- Navigation and Pagination Container -->
-            <div class="swiper-nav-pagination">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-          </div>
-      </div>
-    </section>
-    <!-- Locations Section -->
-<section class="locations" id="locations">
-  <div class="locations__container">
-    <h2 class="locations__title">Our Location</h2>
-    <p class="locations__subtitle">Find us in the heart of Manhattan's most prestigious neighborhood</p>
-
-    <div class="locations__content">
-      <!-- Map Container -->
-      <div class="locations__map">
-        <div class="locations__map-container" id="map-container">
-          <!-- SVG Map -->
-          <svg viewBox="0 0 800 600" xmlns="newyork-map.svg" class="locations__svg">   
-            <!-- Arka plan -->   
-            <rect width="800" height="600" fill="#f8f9fa"/>      
-            
-            <!-- Sokaklar -->   
-            <g stroke="#ccc" stroke-width="20" class="streets">     
-              <line x1="100" y1="100" x2="700" y2="100"/>     
-              <line x1="100" y1="300" x2="700" y2="300"/>     
-              <line x1="100" y1="500" x2="700" y2="500"/>     
-              <line x1="200" y1="50" x2="200" y2="550"/>     
-              <line x1="400" y1="50" x2="400" y2="550"/>     
-              <line x1="600" y1="50" x2="600" y2="550"/>   
-            </g>    
-
-            <!-- Sokak isimleri -->   
-            <g fill="#666" font-family="Arial" font-size="14" class="street-names">     
-              <text x="350" y="90">5th Avenue</text>     
-              <text x="350" y="290">Madison Avenue</text>     
-              <text x="350" y="490">Park Avenue</text>     
-              <text transform="rotate(-90 190 300)" x="190" y="300">E 51st Street</text>     
-              <text transform="rotate(-90 390 300)" x="390" y="300">E 52nd Street</text>     
-              <text transform="rotate(-90 590 300)" x="590" y="300">E 53rd Street</text>   
-            </g>    
-
-            <!-- Emlak ofisi lokasyonu -->   
-            <g transform="translate(400,300)" class="office-marker" data-location="main-office">     
-              <circle r="15" class="pulse-circle"/>     
-              <circle r="8" class="center-circle"/>   
-            </g>    
-
-            <!-- Lokasyon etiketi -->   
-            <g transform="translate(420,290)" class="location-label">     
-              <rect x="0" y="0" width="120" height="40" rx="5" fill="white" stroke="#666"/>     
-              <text x="10" y="25" font-family="Arial" font-size="12" fill="#333">Luxury Estates</text>   
-            </g>    
-
-            <!-- Yakındaki yerler -->   
-            <g fill="#999" font-family="Arial" font-size="11" class="landmarks">     
-              <text x="220" y="200">Central Park</text>     
-              <text x="520" y="400">Grand Central</text>     
-              <text x="180" y="350">Times Square</text>   
-            </g>    
-
-            <!-- Pusula -->   
-            <g transform="translate(700,500)" class="compass">     
-              <circle r="20" fill="white" stroke="#666"/>     
-              <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="14">N</text>     
-              <line x1="0" y1="0" x2="0" y2="-15" stroke="#666" stroke-width="2"/>   
-            </g>    
-
-            <!-- Ölçek çubuğu -->   
-            <g transform="translate(100,550)" class="scale-bar">     
-              <line x1="0" y1="0" x2="100" y2="0" stroke="#666" stroke-width="2"/>     
-              <text x="50" y="20" text-anchor="middle" font-family="Arial" font-size="12">100m</text>   
-            </g> 
-          </svg>
+       
+        <div class="nav__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
+    </nav>
 
-      <!-- Location Details -->
-      <div class="locations__details">
-        <div class="location-info active" data-location="main-office">
-          <h3 class="location-info__title">Manhattan Office</h3>
-          <div class="location-info__address">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>E 52nd St & Madison Ave<br>New York, NY 10022</span>
-          </div>
-          <div class="location-info__stats">
-            <div class="stat">
-              <i class="fas fa-building"></i>
-              <div class="stat__content">
-                <span class="stat__label">Nearby</span>
-                <span class="stat__value">Central Park, Times Square, Grand Central</span>
+    <div class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+
+        <h1 class="hero__title">Discover Your Dream Home</h1>
+        <p class="hero__subtitle">
+          Experience luxury living with our curated collection of exclusive
+          properties in prime locations
+        </p>
+        <button class="hero__cta">View Properties</button>
+      </div>
+    </div>
+
+    <nav class="secondary-nav">
+      <div class="secondary-nav__container">
+        <a href="#featured" class="secondary-nav__link">Featured Properties</a>
+        <a href="#luxury" class="secondary-nav__link">Luxury Collection</a>
+        <a href="#locations" class="secondary-nav__link">Locations</a>
+        <a href="#contact" class="secondary-nav__link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="featured">
+    <div class="featured__container">
+      <h2 class="featured__title">Featured Properties</h2>
+      <p class="featured__subtitle">
+        Discover our handpicked selection of prestigious properties
+      </p>
+
+      <div class="swiper featured-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-1.jpg" alt="Modern Villa" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Modern Villa with Ocean View</h3>
+                <p class="property-card__location">Beverly Hills, CA</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 5 Beds</span>
+                  <span><i class="fas fa-bath"></i> 6 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 6,200 sq ft</span>
+                </div>
+                <div class="property-card__price">$8,500,000</div>
+                <button class="property-card__btn">View Details</button>
               </div>
             </div>
-            <div class="stat">
-              <i class="fas fa-clock"></i>
-              <div class="stat__content">
-                <span class="stat__label">Office Hours</span>
-                <span class="stat__value">Mon-Fri: 9AM-6PM</span>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-2.jpg" alt="Luxury Penthouse" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Luxury Penthouse Suite</h3>
+                <p class="property-card__location">Manhattan, NY</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 3 Beds</span>
+                  <span><i class="fas fa-bath"></i> 3.5 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 4,100 sq ft</span>
+                </div>
+                <div class="property-card__price">$12,900,000</div>
+                <button class="property-card__btn">View Details</button>
               </div>
             </div>
           </div>
-          <div class="location-info__contact">
-            <button class="location-info__btn">
-              <i class="fas fa-phone"></i>
-              Contact Us
-            </button>
-            <button class="location-info__btn location-info__btn--outline">
-              <i class="fas fa-directions"></i>
-              Get Directions
-            </button>
+
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-3.jpg" alt="Modern Apartment" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Modern Downtown Apartment</h3>
+                <p class="property-card__location">Los Angeles, CA</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 2 Beds</span>
+                  <span><i class="fas fa-bath"></i> 2 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 2,100 sq ft</span>
+                </div>
+                <div class="property-card__price">$3,200,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
+            </div>
           </div>
+
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-4.jpg" alt="Waterfront Estate" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Waterfront Mediterranean Estate</h3>
+                <p class="property-card__location">Miami Beach, FL</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 7 Beds</span>
+                  <span><i class="fas fa-bath"></i> 8.5 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 9,800 sq ft</span>
+                </div>
+                <div class="property-card__price">$15,750,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-5.jpg" alt="Modern Glass House" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Modern Glass House</h3>
+                <p class="property-card__location">Hollywood Hills, CA</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 4 Beds</span>
+                  <span><i class="fas fa-bath"></i> 4.5 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 5,300 sq ft</span>
+                </div>
+                <div class="property-card__price">$7,800,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="luxury-home-6.jpg" alt="Beachfront Villa" />
+                <span class="property-card__tag">For Sale</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Beachfront Villa</h3>
+                <p class="property-card__location">Malibu, CA</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 6 Beds</span>
+                  <span><i class="fas fa-bath"></i> 7 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 7,500 sq ft</span>
+                </div>
+                <div class="property-card__price">$18,900,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-nav-pagination">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </div>
+  </section>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+  <div class="swiper-pagination"></div>
   </div>
-</section>
-<!-- Contact Section -->
-<section class="contact" id="contact">
-  <div class="contact__container">
-    <h2 class="contact__title">Get in Touch</h2>
-    <p class="contact__subtitle">Let us help you find your dream property</p>
+  </div>
+  </section>
+  <section class="luxury-collection">
+    <div class="luxury-collection__container">
+      <h2 class="luxury-collection__title">Luxury Collection</h2>
+      <p class="luxury-collection__subtitle">Discover our exclusive portfolio of magnificent properties designed for
+        sophisticated living</p>
 
-    <div class="contact__content">
-      <!-- Contact Form Side -->
-      <div class="contact__form-wrapper">
-        <form class="contact__form" id="contactForm">
-          <div class="form-group">
-            <div class="input-wrapper">
-              <input type="text" id="name" name="name" required>
-              <label for="name">Full Name</label>
-              <div class="input-indicator"></div>
+      <div class="swiper luxury-collection-swiper">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="7.jpg" alt="Premium Villa">
+                <span class="property-card__tag">Premium</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Waterfront Villa</h3>
+                <p class="property-card__location">Beverly Hills, CA</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 6 Beds</span>
+                  <span><i class="fas fa-bath"></i> 8 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 12,500 sq ft</span>
+                </div>
+                <div class="property-card__price">$12,500,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
             </div>
           </div>
 
-          <div class="form-group form-group--split">
-            <div class="input-wrapper">
-              <input type="email" id="email" name="email" required>
-              <label for="email">Email Address</label>
-              <div class="input-indicator"></div>
-            </div>
-            <div class="input-wrapper">
-              <input type="tel" id="phone" name="phone" required>
-              <label for="phone">Phone Number</label>
-              <div class="input-indicator"></div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="select-wrapper">
-              <select id="inquiry" name="inquiry" required>
-                <option value="" selected disabled>Select Inquiry Type</option>
-                <option value="buy">Looking to Buy</option>
-                <option value="sell">Looking to Sell</option>
-                <option value="rent">Looking to Rent</option>
-                <option value="other">Other Inquiry</option>
-              </select>
-              <div class="select-indicator"></div>
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="8.jpg" alt="Luxury Penthouse">
+                <span class="property-card__tag">Featured</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Sky Penthouse</h3>
+                <p class="property-card__location">Manhattan, NY</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 4 Beds</span>
+                  <span><i class="fas fa-bath"></i> 5 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 7,200 sq ft</span>
+                </div>
+                <div class="property-card__price">$8,900,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
             </div>
           </div>
 
-          <div class="form-group">
-            <div class="input-wrapper">
-              <textarea id="message" name="message" rows="4" required></textarea>
-              <label for="message">Your Message</label>
-              <div class="input-indicator"></div>
+          <div class="swiper-slide">
+            <div class="property-card">
+              <div class="property-card__image">
+                <img src="9.jpg" alt="Private Estate">
+                <span class="property-card__tag">Exclusive</span>
+              </div>
+              <div class="property-card__content">
+                <h3 class="property-card__title">Private Estate</h3>
+                <p class="property-card__location">Hamptons, NY</p>
+                <div class="property-card__details">
+                  <span><i class="fas fa-bed"></i> 8 Beds</span>
+                  <span><i class="fas fa-bath"></i> 10 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 15,800 sq ft</span>
+                </div>
+                <div class="property-card__price">$18,500,000</div>
+                <button class="property-card__btn">View Details</button>
+              </div>
             </div>
           </div>
+        </div>
 
-          <button type="submit" class="contact__submit">
-            <span class="button-text">Send Message</span>
-            <span class="button-loader"></span>
-            <i class="fas fa-paper-plane"></i>
-          </button>
-        </form>
+        <div class="swiper-nav-pagination">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
+    </div>
+  </section>
+  <section class="locations" id="locations">
+    <div class="locations__container">
+      <h2 class="locations__title">Our Location</h2>
+      <p class="locations__subtitle">Find us in the heart of Manhattan's most prestigious neighborhood</p>
 
-      <!-- Contact Info Side -->
-      <div class="contact__info">
-        <div class="contact__card">
-          <div class="contact__card-content">
-            <h3 class="contact__card-title">Contact Information</h3>
-            <p class="contact__card-subtitle">Reach out to us through any of these channels</p>
-            
-            <ul class="contact__details">
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <div>
-                  <h4>Visit Us</h4>
-                  <p>E 52nd St & Madison Ave<br>New York, NY 10022</p>
+      <div class="locations__content">
+        <div class="locations__map">
+          <div class="locations__map-container" id="map-container">
+            <svg viewBox="0 0 800 600" xmlns="newyork-map.svg" class="locations__svg">
+              <rect width="800" height="600" fill="#f8f9fa" />
+
+              <g stroke="#ccc" stroke-width="20" class="streets">
+                <line x1="100" y1="100" x2="700" y2="100" />
+                <line x1="100" y1="300" x2="700" y2="300" />
+                <line x1="100" y1="500" x2="700" y2="500" />
+                <line x1="200" y1="50" x2="200" y2="550" />
+                <line x1="400" y1="50" x2="400" y2="550" />
+                <line x1="600" y1="50" x2="600" y2="550" />
+              </g>
+
+              <g fill="#666" font-family="Arial" font-size="14" class="street-names">
+                <text x="350" y="90">5th Avenue</text>
+                <text x="350" y="290">Madison Avenue</text>
+                <text x="350" y="490">Park Avenue</text>
+                <text transform="rotate(-90 190 300)" x="190" y="300">E 51st Street</text>
+                <text transform="rotate(-90 390 300)" x="390" y="300">E 52nd Street</text>
+                <text transform="rotate(-90 590 300)" x="590" y="300">E 53rd Street</text>
+              </g>
+
+              <g transform="translate(400,300)" class="office-marker" data-location="main-office">
+                <circle r="15" class="pulse-circle" />
+                <circle r="8" class="center-circle" />
+              </g>
+
+              <g transform="translate(420,290)" class="location-label">
+                <rect x="0" y="0" width="120" height="40" rx="5" fill="white" stroke="#666" />
+                <text x="10" y="25" font-family="Arial" font-size="12" fill="#333">Luxury Estates</text>
+              </g>
+
+              <g fill="#999" font-family="Arial" font-size="11" class="landmarks">
+                <text x="220" y="200">Central Park</text>
+                <text x="520" y="400">Grand Central</text>
+                <text x="180" y="350">Times Square</text>
+              </g>
+
+              <g transform="translate(700,500)" class="compass">
+                <circle r="20" fill="white" stroke="#666" />
+                <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="14">N</text>
+                <line x1="0" y1="0" x2="0" y2="-15" stroke="#666" stroke-width="2" />
+              </g>
+
+              <g transform="translate(100,550)" class="scale-bar">
+                <line x1="0" y1="0" x2="100" y2="0" stroke="#666" stroke-width="2" />
+                <text x="50" y="20" text-anchor="middle" font-family="Arial" font-size="12">100m</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="locations__details">
+          <div class="location-info active" data-location="main-office">
+            <h3 class="location-info__title">Manhattan Office</h3>
+            <div class="location-info__address">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>E 52nd St & Madison Ave<br>New York, NY 10022</span>
+            </div>
+            <div class="location-info__stats">
+              <div class="stat">
+                <i class="fas fa-building"></i>
+                <div class="stat__content">
+                  <span class="stat__label">Nearby</span>
+                  <span class="stat__value">Central Park, Times Square, Grand Central</span>
                 </div>
-              </li>
-              <li>
-                <i class="fas fa-phone-alt"></i>
-                <div>
-                  <h4>Call Us</h4>
-                  <p>+1 (212) 555-0123</p>
-                </div>
-              </li>
-              <li>
-                <i class="fas fa-envelope"></i>
-                <div>
-                  <h4>Email Us</h4>
-                  <p>info@luxuryestates.com</p>
-                </div>
-              </li>
-              <li>
+              </div>
+              <div class="stat">
                 <i class="fas fa-clock"></i>
-                <div>
-                  <h4>Office Hours</h4>
-                  <p>Mon-Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                <div class="stat__content">
+                  <span class="stat__label">Office Hours</span>
+                  <span class="stat__value">Mon-Fri: 9AM-6PM</span>
                 </div>
-              </li>
-            </ul>
-
-            <div class="contact__social">
-              <a href="#" class="social-link" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-link" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#" class="social-link" aria-label="LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" class="social-link" aria-label="Twitter">
-                <i class="fab fa-twitter"></i>
-              </a>
+              </div>
+            </div>
+            <div class="location-info__contact">
+              <button class="location-info__btn">
+                <i class="fas fa-phone"></i>
+                Contact Us
+              </button>
+              <button class="location-info__btn location-info__btn--outline">
+                <i class="fas fa-directions"></i>
+                Get Directions
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  <section class="contact" id="contact">
+    <div class="contact__container">
+      <h2 class="contact__title">Get in Touch</h2>
+      <p class="contact__subtitle">Let us help you find your dream property</p>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="home.js"></script>
-  </body>
+      <div class="contact__content">
+        <div class="contact__form-wrapper">
+          <form class="contact__form" id="contactForm">
+            <div class="form-group">
+              <div class="input-wrapper">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Full Name</label>
+                <div class="input-indicator"></div>
+              </div>
+            </div>
+
+            <div class="form-group form-group--split">
+              <div class="input-wrapper">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email Address</label>
+                <div class="input-indicator"></div>
+              </div>
+              <div class="input-wrapper">
+                <input type="tel" id="phone" name="phone" required>
+                <label for="phone">Phone Number</label>
+                <div class="input-indicator"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="select-wrapper">
+                <select id="inquiry" name="inquiry" required>
+                  <option value="" selected disabled>Select Inquiry Type</option>
+                  <option value="buy">Looking to Buy</option>
+                  <option value="sell">Looking to Sell</option>
+                  <option value="rent">Looking to Rent</option>
+                  <option value="other">Other Inquiry</option>
+                  <option value="Help">Helping Menu</option>
+                </select>
+                <div class="select-indicator"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-wrapper">
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message">Your Message</label>
+                <div class="input-indicator"></div>
+              </div>
+            </div>
+
+            <button type="submit" class="contact__submit">
+              <span class="button-text">Send Message</span>
+              <span class="button-loader"></span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact__info">
+          <div class="contact__card">
+            <div class="contact__card-content">
+              <h3 class="contact__card-title">Contact Information</h3>
+              <p class="contact__card-subtitle">Reach out to us through any of these channels</p>
+
+              <ul class="contact__details">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h4>Visit Us</h4>
+                    <p>E 52nd St & Madison Ave<br>New York, NY 10022</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-phone-alt"></i>
+                  <div>
+                    <h4>Call Us</h4>
+                    <p>+1 (212) 555-0123</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h4>Email Us</h4>
+                    <p>info@luxuryestates.com</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-clock"></i>
+                  <div>
+                    <h4>Office Hours</h4>
+                    <p>Mon-Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="contact__social">
+                <a href="#" class="social-link" aria-label="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup" id="popup">
+      <button class="popup__close" id="popupClose" aria-label="Close Popup">
+        <i class="fas fa-times"></i>
+      </button>
+      <h2 class="popup__title" id="popupTitle"></h2>
+      <p class="popup__subtitle" id="popupSubtitle"></p>
+      <form class="popup__form">
+        <div class="form-group">
+          <input type="text" id="popupName" placeholder="Full Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="popupEmail" placeholder="Email Address" required />
+        </div>
+        <div class="form-group">
+          <textarea id="popupMessage" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="popup__submit">Send Request</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="home.js"></script>
+</body>
+
 </html>
